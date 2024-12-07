@@ -28,3 +28,4 @@
   dnf:
     name: openstack-nova-compute
     state: present
+
