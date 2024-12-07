@@ -10,8 +10,7 @@
     sudo zypper addrepo -f obs://Cloud:OpenStack:Ussuri/openSUSE_Leap_15.1 Ussuri
 
 - name: Install Openstack Python client on Ubuntu
-  command: >
-    sudo apt install python3-openstackclient
+  command: >    sudo apt install python3-openstackclient
 
 - name: Install Keystone on server1 (Ubuntu)
   when: ansible_distribution == "Ubuntu"
